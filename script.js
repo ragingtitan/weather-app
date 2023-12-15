@@ -42,7 +42,7 @@
             else if(data.weather[0].main=="Clear")
             {
                 weatherIcon.src="images/clear.png";
-                condition.innerHTML='<p>"It is bright and sunny today!"</p>';
+                condition.innerHTML='<p>"The sky is clear today!"</p>';
             }
             else if(data.weather[0].main=="Rain")
             {
