@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleutil1.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+        
+            <input id="submit-city" type="text" placeholder="Enter city name" spellcheck="false">
+            <button onclick="fetchData()" ><img src="images/search.png" alt=""></button>
+
+    </div>
+    <div class="weather">
+        <img src="" class="weather-icon">
+        <div id="weather-status" class="msbot"></div>
+        <h1 id="temperature" class="temp center"></h1>
+        <h4 id="real-feel" class="mxstop msbot fw-normal"></h4>
+        <h2 id="city-name" class="city"></h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p id="humidity-value" class="humidity"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p id="wind-speed" class="wind"></p>
+                    <p>wind speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<script src="script.js"></script>
+</body>
+</html>

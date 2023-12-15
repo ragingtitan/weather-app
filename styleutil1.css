@@ -1,0 +1,141 @@
+/*font sizes*/
+*{
+    margin: 0;
+    padding:0;  
+}
+.font-size-60px{
+    font-size: 60px;
+}
+.font-size-55px{
+    font-size: 55px;
+}
+.font-size-50px{
+    font-size: 50px;
+}
+.font-size-45px{
+    font-size: 45px;
+}
+.font-size-40px{
+    font-size: 40px;
+}
+.font-size-35px{
+    font-size: 35px;
+}
+.font-size-30px{
+    font-size: 30px;
+}
+.font-size-25px{
+    font-size: 25px;
+}
+.font-size-20px{
+    font-size: 20px;
+}
+.font-size-15px{
+    font-size: 15px;
+}
+/*text decoration*/
+.u{
+    text-decoration: underline;
+}
+.i{
+    font-style: italic;
+}
+.b{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+.p-w{
+    width: 10px;
+}
+.p{
+    padding:0px 50px;
+}
+.ps{
+    padding:0px 25px;
+}
+.pl{
+    padding:0px 100px;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    cursor: pointer;
+}
+.ptop{
+    padding-top: 25px;
+}
+.pbot{
+    padding-bottom: 25px;
+}
+.mxltop{
+    margin-top: 100px;
+}
+.mxlbot{
+    margin-bottom: 100px;
+}
+.mltop{
+    margin-top: 75px;
+}
+.mlbot{
+    margin-bottom: 75px;
+}
+.mtop{
+    margin-top: 50px;
+}
+.mbot{
+    margin-bottom: 50px;
+}
+.mstop{
+    margin-top: 25px;
+}
+.msbot{
+    margin-bottom: 25px;
+}
+.mxstop{
+    margin-top: 12px;
+}
+.mxsbot{
+    margin-bottom: 12px;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.flex{
+    display: flex;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.mauto{
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.mxl{
+    margin-left: 30px;
+}
+.mxr{
+    margin-right: 30px;
+}
+.mxlr{
+    margin-right: 100px;
+}
+.mxxlr{
+    margin-right: 200px;
+}
+textarea{
+    padding: 10px;
+    resize: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
