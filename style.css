@@ -45,6 +45,9 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    right: 41px;
 }
 .search button img{
     width: 20px;
