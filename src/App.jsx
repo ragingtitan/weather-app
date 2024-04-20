@@ -107,7 +107,7 @@ function App() {
               <div className="search-bar hover:shadow bg-white rounded-2xl w-11/12 flex gap-2 justify-center p-2">
                 <input type="text" className='w-11/12 h-10 text-black p-2 outline-none' value={City} onChange={(e)=>{setCity(e.target.value)}} placeholder='Search for a city'/>
                 <div className="search-icon flex justify-center items-center p-1 hover:cursor-pointer" onClick={handleSearch}>
-                  <img src="src\images\search.png" alt="" className='bg-none' width={28} />
+                  <img src="public/images/search.png" alt="" className='bg-none' width={28} />
                 </div>
               </div>
             </div>
@@ -118,7 +118,7 @@ function App() {
               <p className='text-2xl'>{Data.name}, {Data.sys.country}</p>
             </div>
             <div className="weather-condition-logo flex justify-center bg-[#331865] rounded-xl p-2">
-              <img className='w-1/2' src={`src/images/${getWeatherIcon(Data.weather[0].main)}`} alt="Weather Condition"/>
+              <img className='w-1/2' src={`public/images/${getWeatherIcon(Data.weather[0].main)}`} alt="Weather Condition"/>
             </div>
             <div className="time-and-details flex justify-center">
               <p>{currentDate}</p>
@@ -138,17 +138,17 @@ function App() {
             <div className="other-details-wrapper w-full flex justify-center ">
               <div className="other-details p-3 rounded-2xl flex justify-around h-fit bg-[#331865] w-11/12">
                 <div className="rain flex flex-col items-center justify-center">
-                  <img src="src\images\rainlogo.png" alt="Rain Logo" width={40} />
+                  <img src="public\images\rainlogo.png" alt="Rain Logo" width={40} />
                   <p>{}</p>
                   <p>Rain</p>
                 </div>
                 <div className="wind-speed flex flex-col items-center justify-center">
-                  <img className='' src="src\images\wind.png" alt="Wind Speed" width={30} />
+                  <img className='' src="public\images\wind.png" alt="Wind Speed" width={30} />
                   <p>{Data.wind.speed} Km/hr</p>
                   <p>Wind speed</p>
                 </div>
                 <div className="humidity flex flex-col items-center justify-center">
-                  <img className='my-1' src="src\images\humidity.png" alt="Humidity" width={30} />
+                  <img className='my-1' src="public\images\humidity.png" alt="Humidity" width={30} />
                   <p>{Data.main.humidity}%</p>
                   <p>Humidity</p>
                 </div>
