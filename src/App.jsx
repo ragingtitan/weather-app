@@ -144,17 +144,17 @@ function App() {
             <div className="other-details-wrapper w-full flex justify-center ">
               <div className="other-details p-3 rounded-2xl flex justify-around h-fit bg-[#331865] w-11/12">
                 <div className="rain flex flex-col items-center justify-center">
-                  <img src="public\images\rainlogo.png" alt="Rain Logo" width={40} />
+                  <img src="/images/rainlogo.png" alt="Rain Logo" width={40} />
                   <p>{}</p>
                   <p>Rain</p>
                 </div>
                 <div className="wind-speed flex flex-col items-center justify-center">
-                  <img className='' src="public\images\wind.png" alt="Wind Speed" width={30} />
+                  <img className='' src="/images/wind.png" alt="Wind Speed" width={30} />
                   <p>{Data.wind.speed} Km/hr</p>
                   <p>Wind speed</p>
                 </div>
                 <div className="humidity flex flex-col items-center justify-center">
-                  <img className='my-1' src="public\images\humidity.png" alt="Humidity" width={30} />
+                  <img className='my-1' src="/images/humidity.png" alt="Humidity" width={30} />
                   <p>{Data.main.humidity}%</p>
                   <p>Humidity</p>
                 </div>
