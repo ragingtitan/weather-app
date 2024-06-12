@@ -63,13 +63,19 @@ function App() {
       case 'Haze':
         return 'haze.png';
       case 'Dust':
+        return 'dust.png'
       case 'Fog':
+        return 'fog.png'
       case 'Sand':
+        return 'sand.png'
       case 'Dust':
+        return 'dust.png'
       case 'Ash':
+        return 'ash.png'
       case 'Squall':
+        return 'squall.png'
       case 'Tornado':
-        return 'fog.png';
+        return 'tornado.png';
       case 'Clear':
         return 'clear.png';
       case 'Clouds':
@@ -118,7 +124,7 @@ function App() {
               <p className='text-2xl'>{Data.name}, {Data.sys.country}</p>
             </div>
             <div className="weather-condition-logo flex justify-center bg-[#331865] rounded-xl p-2">
-              <img className='w-1/2' src={`public/images/${getWeatherIcon(Data.weather[0].main)}`} alt="Weather Condition"/>
+              <img className='w-1/2' src={`/images/${getWeatherIcon(Data.weather[0].main)}`} alt="Weather Condition"/>
             </div>
             <div className="time-and-details flex justify-center">
               <p>{currentDate}</p>
